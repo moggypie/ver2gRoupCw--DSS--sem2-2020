@@ -1,0 +1,8 @@
+include forum/schema.sql
+graft forum/static
+graft forum/templates
+global-exclude *.pyc
+
+
+
+

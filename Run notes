@@ -1,0 +1,38 @@
+
+
+
+To start app...
+
+
+
+For Windows cmd, use set instead of export:
+
+in terminal...
+> set FLASK_APP=forum
+> set FLASK_ENV=development
+>
+
+
+
+to start db if deleted...
+in terminal...
+> set FLASK_APP=forum
+> set FLASK_ENV=development
+> flask init-db
+
+
+
+
+
+- deploying...
+https://flask.palletsprojects.com/en/1.1.x/tutorial/deploy/
+-
+
+
+
+
+important...
+1. Before deployment Secret Key MUST be changed from 'dev' (see https://flask.palletsprojects.com/en/1.1.x/tutorial/factory/)
+2.
+
+
